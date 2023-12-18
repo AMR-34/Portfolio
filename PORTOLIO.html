@@ -10,18 +10,22 @@
             <div id="entete">
                 <div id="titre">Portfolio d'Andy-Maël</div>
             </div>
-            <div id="boutonMenu">
-                <img id="iconeMenu" src="menu.png"/>
-            </div>
-            <div id="Menu">
-                <a href="#bloc1" class="link">À propos de moi</a>
-                <a href="#bloc2" class="link">Formations</a>
-                <a href="#bloccomp" class="link">Compétences</a>
-                <a href="#blocpro" class="link">Expériences professionnelles</a>
-                <a href="#bloc5" class="link">Projets</a>
-                <a href="#bloc6" class="link">Divers</a>
-                <a href="#bloc7" class="link">CV</a>
-                <a href="#bloc8" class="link">Contact</a>
+            
+            <div class="dropdown">
+                <div id="boutonMenu">
+                    <img id="iconeMenu" src="menu.png"/>
+                </div>
+                <div id="Menu">
+                    <a href="#bloc1" class="link">À propos de moi</a>
+                    <a href="#bloc2" class="link">Formations</a>
+                    <a href="#bloctitrequal" class="link">Qualités</a>
+                    <a href="#bloctitrecomp" class="link">Compétences</a>
+                    <a href="#blocpro" class="link">Expérience professionnelle</a>
+                    <a href="#blocprojets" class="link">Projets</a>
+                    <a href="#blocdivers" class="link">Divers</a>
+                    <a href="#blocCV" class="link">CV</a>
+                    <a href="#blocContact" class="link">Mes contacts</a>
+                </div>
             </div>
         </header>
 
@@ -29,13 +33,13 @@
         <div id="bloc1">
             <h1 class="titrebloc">À propos de moi</h1>
             <h2 id="nom"><b>RANDRIANASOLO </b>Andy-Maël</h2>
-            <h2 id="etudiant">Étudiant en 1ère année en BUT Réseaux et Télécommunications</h2>
+            <h2 id="etudiant">Étudiant en 1ère année de <b>BUT Réseaux et Télécommunications</b></h2>
             <p id="textepresent">
                 J’ai choisi cette orientation car je souhaite à l’avenir travailler dans la cybersécurité ; 
                 en effet, ce domaine m’intéresse beaucoup car je souhaite me porter volontaire pour que les données 
                 les plus sensibles d’une entreprise soient protégés et que personne ne subisse des cyberattaques.
                 <br/>Je fais preuve d'esprit d'équipe mais aussi autonome, responsable et patient.
-                <br/>Je suis à la recherche d’un stage.
+                <br/>Je suis à la recherche d’un stage de deux mois pour la deuxième année, à compter du 1er avril 2025
             </p>
         </div>
         
@@ -48,15 +52,9 @@
             </h2>
 
             <h2 class="formation">
-                <b>Bachelor Universitaire Technologique Informatique - 1ère année</b>
+                <b>Inscription en Bachelor Universitaire Technologique Informatique - 1ère année</b>
                 <br/>IUT d'Aubière
                 <br/>2022-2023
-            </h2>
-
-            <h2 class="formation">
-                <b>Baccalauréat Général - Mathématiques/Physique-Chimie</b>
-                <br/>Lycée Notre Dame de La Merci - Montpellier
-                <br/>2020-2021
             </h2>
         </div>
         
@@ -103,6 +101,9 @@
             <h2 class="nomcomp">Réseaux</h2>
             <div class="maxprogress">
                 <div id="progressRes">80%</div>
+                <p class="textecomp">J'ai acquis mes compétences en réseau, comme créer une topologie réseau
+                    sur Packet tracer pendant les TDs.
+                </p>
             </div>
             <h2 class="nomcomp">Programmation</h2>
             <div class="maxprogress">
@@ -119,7 +120,7 @@
         </div>
 
         <div id="blocpro">
-            <h1 class="titrebloc">Expériences professionnelles</h1>
+            <h1 class="titrebloc">Expérience professionnelle</h1>
             <h2 id="exp1">
                 <b>Stage en entreprise à Garage MAD - 3ème</b>
                 <br/>Mauguio
@@ -137,7 +138,7 @@
         <div id="blocprojets">
             <h1 class="titrebloc">Projets</h1>
             <h2 id="proj1">
-                <b>Situation d'Apprentissage et d'Évaluation 11 - Présentation du phishing</b>
+                <b>Situation d'Apprentissage et d'Évaluation 11 - Présentation du phishing (R&T)</b>
                 <br/>21 Septembre 2023 - 4 Octobre 2023
                 <p class="texteprojet">
                 Notre projet était de présenter un sujet en lien avec notre formation.
@@ -151,6 +152,29 @@
                 au mieux notre travail. 
                 </p>
             </h2>
+
+            <h2 id="proj2">
+                <b>Situation d'Apprentissage et d'Évaluation 1.04 - Création d'une base de données (Informatique)</b>
+                <br/>Dates à ajouter
+                <p class="texteprojet">
+                Texte À compléter
+                </p>
+            </h2>
+        </div>
+
+        <div id="blocdivers">
+            <h1 class="titrebloc">Divers</h1>
+        </div>
+
+        <div id="blocCV">
+            <h1 class="titrebloc">Mon CV</h1>
+            <a id="clickCV" href="CV.pdf">Accéder à mon CV</a>
+        </div>
+
+        <div id="blocContact">
+            <h1 class="titrebloc">Mes contacts</h1>
+            <h2 class="typecontact"><b>Email : </b> a-mael.randrianasolo@etu.uca.fr</h2>
+            <h2 class="typecontact"><b>Téléphone : </b> 06.48.80.92.58</h2>
         </div>
     </body>
 </html>
