@@ -212,31 +212,12 @@ p {
     padding-right: 10px;
 }
 
-
-#blocprojets {
-    width: 1213px;
-    height: 890px;
-    background: #FFF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    margin: auto;
-    border-radius: 5px;
-}
-
-
 .imageprojet {
     border-radius: 5px;
     width: 450px;
     margin-bottom: 10px;
 }
 
-#blocdivers {
-    width: 1213px;
-    height: 400px;
-    background: #FFF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    margin: auto;
-    border-radius: 5px;
-}
 
 #clickCV {
     color: white;
@@ -262,8 +243,12 @@ footer {
 }
 
 @media screen and (max-width:1000px) {
+    header {
+        font-size: larger;
+    }
+    
     p {
         text-align: start;
-        font-size: smaller;
+        font-size: larger;
     }
 }
