@@ -244,11 +244,11 @@ footer {
 
 @media screen and (max-width:1000px) {
     header {
-        font-size: larger;
+        font-size: large;
     }
     
     p {
         text-align: start;
-        font-size: larger;
+        font-size:large;
     }
 }
