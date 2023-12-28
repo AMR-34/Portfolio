@@ -2,19 +2,33 @@ body{
     margin: 0%;
 }
 
-#boutonMenu {
-    width: 100%;
-    height: 90px;
-    background: #000000;
-    color:#FFF;
-    position:fixed;
-    top:0;
+header {
+    position: fixed;
     display: flex;
-    align-items: center;
     justify-content: center;
+    width: 100%;
+    background-color: #000;
+    height: 90px;
 }
 
-#Menu {
+.boutonMenu {
+    visibility: hidden;
+}
+
+.iconeMenu {
+    cursor: pointer;
+}
+
+#texteMenu {
+    color: #FFF;
+}
+
+#boutonMenu {
+    position: absolute;
+    top: -100%;
+    left: -100%;
+}
+.Menu {
     position:fixed;
     display: none;
     top: 90px;
@@ -24,22 +38,17 @@ body{
     background: black;
 }
 
-
-#Menu a:hover {
-    background-color: rgb(99, 99, 99);
-}
-
-.dropdown:hover #Menu {
+.boutonMenu:checked ~ .Menu {
     display: flex;
-    justify-content: center;
     flex-direction: column;
 }
 
-.dropdown:hover #boutonMenu {
+.Menu a:hover {
     background-color: rgb(99, 99, 99);
 }
 
-a {
+
+header a {
     text-decoration: none;
 }
 
@@ -242,7 +251,7 @@ footer {
 }
 
 @media screen and (max-width:1000px) {
-    #Menu {
+    .Menu {
         height: 40%;
     }
     
