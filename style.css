@@ -71,6 +71,19 @@ h1 {
     text-align: center;
 }
 
+#portrait {
+    display: flex;
+    align-items: center;
+    flex-direction: column;   
+    color:white;
+}
+
+#imageportrait {
+    border-radius: 100%;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
 #bloc1 {
     background: #FFF;
     padding-top: 80px;
