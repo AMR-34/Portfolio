@@ -1,56 +1,58 @@
 body{
-    margin: 0%;
+    margin: 0%; /* Remise à zéro de la marge du corps */
 }
 
 header {
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-color: #000;
-    height: 90px;
+    position: fixed; /* Positionnement fixe de l'en-tête */
+    display: flex; /* Affichage en mode flex pour le centrage */
+    justify-content: center; /* Centrage horizontal du contenu */
+    width: 100%; /* Largeur à 100% de la fenêtre */
+    background-color: #000; /* Couleur de fond noire */
+    height: 90px; /* Hauteur de l'en-tête */
 }
 
 .boutonMenu {
-    visibility: hidden;
+    visibility: hidden; /* Masquage du bouton de menu */
 }
 
 .iconeMenu {
-    cursor: pointer;
+    cursor: pointer; /* Curseur indiquant la possibilité de cliquer */
 }
 
 #texteMenu {
-    color: #FFF;
+    color: #FFF; /* Couleur du texte en blanc */
 }
 
 #boutonMenu {
-    position: absolute;
-    top: -100%;
-    left: -100%;
+    position: absolute; /* Position absolue pour le bouton de menu */
+    top: -100%; /* Position en dehors de la fenêtre */
+    left: -100%; /* Position en dehors de la fenêtre */
 }
+
 .Menu {
-    position:fixed;
-    display: none;
-    top: 90px;
-    width: 100%;
-    height: 60%;
-    padding-top: 10px;
-    background: black;
+    position:fixed; /* Positionnement fixe du menu */
+    display: none; /* Masquage du menu par défaut */
+    top: 90px; /* Position top par rapport à l'en-tête */
+    width: 100%; /* Largeur à 100% de la fenêtre */
+    height: 60%; /* Hauteur du menu à 60% de la fenêtre */
+    padding-top: 10px; /* Espacement en haut du menu */
+    background: black; /* Couleur de fond noire */
 }
 
 .boutonMenu:checked ~ .Menu {
-    display: flex;
-    flex-direction: column;
+    display: flex; /* Affichage du menu lorsqu'il est coché */
+    flex-direction: column; /* Disposition en colonne pour les liens du menu */
 }
 
 .Menu a:hover {
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(99, 99, 99); /* Couleur de fond au survol des liens du menu */
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none; /* Suppression du soulignement des liens */
 }
 
+/* Style des liens du menu */
 .link {
     width: 100%;
     height : 90px;
@@ -63,6 +65,7 @@ a {
     line-height: normal;
 }
 
+/* Style des balises h1 */
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 36px;
@@ -71,6 +74,7 @@ h1 {
     text-align: center;
 }
 
+/* Style du conteneur du portrait */
 #portrait {
     display: flex;
     align-items: center;
@@ -78,24 +82,28 @@ h1 {
     color:white;
 }
 
+/* Style de l'image du portrait */
 #imageportrait {
     border-radius: 100%;
     width: 200px;
     margin-bottom: 10px;
 }
 
+/* Style du bloc 1 */
 #bloc1 {
     background: #FFF;
     padding-top: 80px;
     padding-bottom: 30px;
 }
 
+/* Style des blocs 3, 5, et 7 */
 #bloc3, #bloc5, #bloc7 {
     background: #FFF;
     padding-top: 1px;
     padding-bottom: 30px;
 }
 
+/* Style des blocs 2, 4, 6, et 8 */
 #bloc2, #bloc4, #bloc6, #bloc8 {
     background: #000000;
     padding-top: 1px;
@@ -103,6 +111,7 @@ h1 {
     color:white;
 }
 
+ /* Style des balises h2 */
 h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 24px;
@@ -111,6 +120,7 @@ h2 {
     text-align: center;
 }
 
+ /* Style des paragraphes */
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 24px;
@@ -120,6 +130,7 @@ p {
     line-height: 1.7;
 }
 
+/* Style des éléments de formation */
 .formation {
     color: #000;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -130,16 +141,19 @@ p {
     font-weight: normal;
 }
 
+/* Style du bloc de qualifications */
 #blocqual {
     display: flex;
     justify-content:space-between;
     align-items: center;
 }
 
+/* Style des qualifications individuelles */
 .qual {
     background: #FFF;
 }
 
+/* Style du nom de la qualification */
 .nomqual {
     display: flex;
     flex-direction: column;
@@ -151,6 +165,7 @@ p {
     font-weight: 700;
 }
 
+/* Style de l'icône de qualification */
 .iconequal {
     display: flex;
     justify-content:center;
@@ -160,6 +175,7 @@ p {
     padding-bottom: 20px;
 }
 
+/* Style du bloc de compétences */
 #bloccomp {
     display: flex;
     align-items: center;
@@ -167,6 +183,7 @@ p {
     color:white;
 }
 
+/* Style du nom de la compétence */
 .nomcomp {
     display: flex;
     flex-direction: column;
@@ -177,6 +194,7 @@ p {
     font-weight: 700;
 }
 
+/* Style de la barre de progression maximale */
 .maxprogress {
     width: 1000px;
     height: 40px;
@@ -187,6 +205,7 @@ p {
     font-size: 24px;
 }
 
+/* Style de la barre de progression pour les réseaux */
 #progressRes {
     width: 90%;
     height: 100%;
@@ -194,6 +213,7 @@ p {
     border-radius: 5px;
 }
 
+/* Style de la barre de progression pour Python */
 #progressPython {
     width: 75%;
     height: 100%;
@@ -201,6 +221,7 @@ p {
     border-radius: 5px;
 }
 
+/* Style de la barre de progression pour les télécommunications */
 #progressTelecom {
     width: 75%;
     height: 100%;
@@ -208,6 +229,7 @@ p {
     border-radius: 5px;
 }
 
+/* Style de la barre de progression pour le système Linux */
 #progressSys {
     width: 92%;
     height: 100%;
@@ -215,6 +237,7 @@ p {
     border-radius: 5px;
 }
 
+/* Style de la barre de progression pour la programmation Web */
 #progressWeb {
     width: 90%;
     height: 100%;
@@ -222,23 +245,27 @@ p {
     border-radius: 5px;
 }
 
+/* Style des images de projet */
 .imageprojet {
     border-radius: 5px;
     width: 450px;
     margin-bottom: 10px;
 }
 
+/* Style du bloc des éléments divers */
 #blocdivers {
     display: flex;
     justify-content:space-between;
     align-items: center;
 }
 
+/* Style des éléments divers */
 .divers {
     background: #FFF;
     width: 100%;
 }
 
+/* Style du nom des éléments divers */
 .nomdivers {
     display: flex;
     flex-direction: column;
@@ -250,6 +277,7 @@ p {
     font-weight: 700;
 }
 
+/* Style de l'icône des éléments divers */
 .iconedivers {
     display: flex;
     justify-content:center;
@@ -259,6 +287,7 @@ p {
     padding-bottom: 20px;
 }
 
+/* Style du conteneur d'affichage du PDF */
 #affichPDF {
     display: flex;
     flex-direction: column;
@@ -266,15 +295,18 @@ p {
     margin-bottom: 40px;
 }
 
+/* Style de l'image du CV */
 #imgCV {
     border-radius: 5px;
 }
 
+/* Style de l'élément embed */
 embed {
     height: 700px;
     width: 500px;
 }
 
+/* Style du lien pour télécharger le CV */
 #clickCV {
     color: white;
     font-size: 24px;
@@ -285,12 +317,14 @@ embed {
     border-style: solid;
 }
 
+/* Style du pied de page */
 footer {
     background-color: white;
     padding-top: 1px;
     padding-bottom: 15px;
 }
 
+/* Styles pour les écrans de largeur maximale 1000px et moins */
 @media screen and (max-width:1000px) {
     .Menu {
         height: 40%;

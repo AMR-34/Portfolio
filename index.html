@@ -1,16 +1,19 @@
-<!DOCTYPE html>
-<html lang="fr">
-	<head>
-		<meta charset="utf-8">
-		<title>Portfolio d'Andy-Maël</title>
-        <link rel="stylesheet" href="style.css">
+<!DOCTYPE html> <!-- Déclaration du type de document -->
+<html lang="fr"><!-- Balise d'ouverture pour le document HTML avec la langue définie en français -->
+	<head> <!-- Section d'en-tête contenant des métadonnées pour le document -->
+		<meta charset="utf-8"> <!-- Déclaration de l'encodage des caractères pour le document -->
+		<title>Portfolio d'Andy-Maël</title> <!-- Titre du document -->
+        <link rel="stylesheet" href="style.css"> <!-- Liaison d'une feuille de style externe -->
     </head>
-	<body>
-        <header>
+	<body> <!-- Corps du document HTML -->
+        <header> <!-- Section d'en-tête pour la page -->
+            <!-- Case à cocher pour le menu -->
             <input class="boutonMenu" type="checkbox" id="boutonMenu" name="boutonMenu" />
+            <!-- Libellé pour l'icône du menu -->
             <label class="iconeMenu" for="boutonMenu">
-                <h1 id="texteMenu">Menu</h1>
+                <h1 id="texteMenu">Menu</h1> <!-- Titre du menu -->
             </label>
+            <!-- Menu de navigation -->
             <nav class="Menu">
                 <a href="#bloc1" class="link">À propos de moi</a>
                 <a href="#bloc2" class="link">Formations</a>
@@ -24,9 +27,10 @@
             </nav>
         </header>
                     
-        <div>
-            <section id="bloc1">
+        <div> <!-- Conteneur principal du contenu -->
+            <section id="bloc1"> <!-- Section pour 'À propos de moi' -->
                 <h1>À propos de moi</h1>
+                <!-- Image et informations sur moi -->
                 <div id="portrait">
                     <img id="imageportrait" src="Ressources/Portrait.JPG" alt="Portrait d'Andy-Maël.">
                 </div>
@@ -40,7 +44,11 @@
                     <br/>Je suis à la recherche d’un stage de <b>deux mois</b> pour la deuxième année, à compter du 1er avril 2025.
                 </p>
             </section>
-            
+
+            <!-- Sections similaires pour Formations, Qualités, Compétences, Expérience professionnelle, Projet, Divers, Mon CV, et Contacts -->
+            <!-- Chaque section a un contenu et une structure spécifiques, fournissant des informations sur l'éducation, les compétences, l'expérience, etc. -->
+
+            <!-- Section Formations -->
             <section id="bloc2">
                 <h1>Formations</h1>
                 <h2>
@@ -55,7 +63,8 @@
                     <br/>2022-2023
                 </h2>
             </section>
-            
+
+            <!-- Section Qualités -->
             <section id="bloc3">
                 <h1>Qualités</h1>
                 <div id="blocqual">
@@ -90,6 +99,7 @@
                 </div>
             </section>
 
+             <!-- Section Compétences techniques -->
             <section id="bloc4">
                 <h1>Compétences techniques</h1>
                 <div id="bloccomp">
@@ -131,8 +141,7 @@
                 </div>
             </section>
                 
-            
-
+            <!-- Section Expérience professionnelle -->
             <section id="bloc5">
                 <h1>Expérience professionnelle</h1>
                 <h2>
@@ -152,7 +161,8 @@
                     </p>
 
             </section>
-
+            
+            <!-- Section Projet -->
             <section id="bloc6">
                 <h1>Projet</h1>
                 <h2>
@@ -172,7 +182,8 @@
                     au mieux notre travail. 
                     </p>
                 </section>
-
+            
+             <!-- Section Divers -->
             <section id="bloc7">
                 <h1 >Divers</h1>
                 <div id="blocdivers">
@@ -195,7 +206,8 @@
                     </div>
                 </div>
             </section>
-
+            
+            <!-- Section Mon CV -->
             <section id="bloc8">
                 <h1 >Mon CV</h1>
                 <div id="affichPDF">
@@ -206,6 +218,7 @@
                 </h2>
             </section>
 
+            <!-- Section Contacts (pied de page) -->
             <footer id="Contact">
                 <h1 >Mes contacts</h1>
                 <h2><b>Email : </b> a-mael.randrianasolo@etu.uca.fr</h2>
