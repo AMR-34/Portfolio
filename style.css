@@ -84,7 +84,7 @@ h1 {
 
 /* Style de l'image du portrait */
 #imageportrait {
-    border-radius: 100%;
+    border-radius: 50%;
     width: 200px;
     margin-bottom: 10px;
 }
@@ -207,7 +207,7 @@ p {
 
 /* Style de la barre de progression pour les réseaux */
 #progressRes {
-    width: 90%;
+    width: 85%;
     height: 100%;
     background-color: rgb(0, 225, 255);
     border-radius: 5px;
@@ -215,7 +215,7 @@ p {
 
 /* Style de la barre de progression pour Python */
 #progressPython {
-    width: 75%;
+    width: 60%;
     height: 100%;
     background-color: rgb(204, 0, 255);
     border-radius: 5px;
@@ -223,7 +223,7 @@ p {
 
 /* Style de la barre de progression pour les télécommunications */
 #progressTelecom {
-    width: 75%;
+    width: 65%;
     height: 100%;
     background-color: rgb(255, 136, 0);
     border-radius: 5px;
@@ -231,7 +231,7 @@ p {
 
 /* Style de la barre de progression pour le système Linux */
 #progressSys {
-    width: 92%;
+    width: 90%;
     height: 100%;
     background-color: rgb(255, 0, 0);
     border-radius: 5px;
@@ -239,12 +239,18 @@ p {
 
 /* Style de la barre de progression pour la programmation Web */
 #progressWeb {
-    width: 90%;
+    width: 85%;
     height: 100%;
     background-color: rgb(46, 199, 0);
     border-radius: 5px;
 }
 
+#progressAngl {
+    width: 95%;
+    height: 100%;
+    background-color: rgb(0, 195, 255);
+    border-radius: 5px;
+}
 /* Style des images de projet */
 .imageprojet {
     border-radius: 5px;
@@ -278,13 +284,24 @@ p {
 }
 
 /* Style de l'icône des éléments divers */
-.iconedivers {
+.imagedivers {
     display: flex;
-    justify-content:center;
-    width: 136px;
-    height: 136px;
+    width: 256px;
+    height: 144px;
     margin:auto;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#album {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    margin:auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 /* Style du conteneur d'affichage du PDF */
