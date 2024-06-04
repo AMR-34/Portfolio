@@ -298,6 +298,15 @@ p {
     border-radius: 5px;
 }
 
+.imagedivers1 {
+    display: flex;
+    width: 256px;
+    height: 144px;
+    margin:auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
 #album {
     display: flex;
     align-items: start;
