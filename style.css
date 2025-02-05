@@ -210,6 +210,14 @@ p {
     text-align: end;
 }
 
+/* Style de la barre de progression pour la cybersécurité */
+#progressRes {
+    width: 70%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+}
+
 /* Style de la barre de progression pour les réseaux */
 #progressRes {
     width: 85%;
